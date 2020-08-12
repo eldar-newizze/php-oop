@@ -1,7 +1,5 @@
 <?php
 
-$a = file_get_contents('https://master-7rqtwti-fejwvdfbssgmg.us-5.magentosite.cloud/media/catalog/product/cache/_349954e840b7894e0619c9076a057af0/1/4/14920.jpg');
-
 spl_autoload_register(function ($class) {
     $path = $class.'.php';
     if (file_exists($path)) {
