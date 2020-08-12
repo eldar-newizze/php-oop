@@ -1,6 +1,5 @@
 <?php
 declare(ticks=1);
-include 'Contacts.php';
 
 class Employee extends Contacts
 {
