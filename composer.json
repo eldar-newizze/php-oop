@@ -1,0 +1,15 @@
+{
+    "name": "eldar/oop",
+    "authors": [
+        {
+            "name": "eldar",
+            "email": "m.eldar@newizze.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4" : {
+            "Employee\\" : "Employee/"
+        }
+    }
+}

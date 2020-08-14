@@ -1,6 +1,8 @@
 <?php
 declare(strict_types=1);
 
+namespace Employee;
+
 class Employee extends Contacts
 {
     /*** @var string */

@@ -1,11 +1,8 @@
 <?php
 
-spl_autoload_register(function ($class) {
-    $path = $class.'.php';
-    if (file_exists($path)) {
-        require $path;
-    }
-});
+require __DIR__ . '/vendor/autoload.php';
+
+use Employee\Employee;
 
 $employee = new Employee('John', 'Doe', 32);
 
